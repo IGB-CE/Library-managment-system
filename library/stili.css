@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: linear-gradient(135deg, #c6cad3 30%, #707a91 70%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 434;
+    transition: all 650ms ease-in-out;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.nav input[type="text"] {
+    border-radius: 5px;
+    padding: 0 20px;
+    line-height: 30px;
+    height: 30px;
+    border: solid 1px #e6e6e6;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 650ms ease;
+    padding: 15px;
+}
+
+.register-wrapper {
+    position: relative;
+    z-index: 0;
+    padding: 100px;
+    font-size: 1rem;
+}
+
+.register-wrapper * {
+    box-sizing: border-box;
+}
+
+.register-wrapper form input,textarea, select,input[type="search"] {
+    display: inline-block;
+    width: 100%;
+    padding: 0 40px;
+    line-height: 60px;
+    height: 50px;
+    background: white;
+    border: solid 1px #e6e6e6;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    outline: none;
+    margin: 10px;
+}
+
+.bllok
+{
+    width: 45%;
+    margin: 0 auto;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.bllok input[type="button"]
+{
+    padding: 5px 20px;
+    background-color: #9ba2b2;
+    border: solid 1px #a9afbd;
+    border-bottom-width: 3px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bllok-map
+{
+    align-items:center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;   
+}
+.bllok-se
+{
+    align-items:center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.bllok-se input
+{
+    line-height: 30px;
+    height: 50px;
+    background: white;
+    border: solid 1px #e6e6e6;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    outline: none;
+}
+.bllok-se input[type="button"]
+{
+    padding: 0 20px;
+    background-color: #9ba2b2;
+    border: solid 1px #a9afbd;
+    border-bottom-width: 3px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bllok-se a
+{
+    color: #9ba2b2;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 650ms ease;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.register-wrapper form input[type="submit"] {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #9ba2b2;
+    background-size: 100%;
+    border: solid 1px #a9afbd;
+    border-bottom-width: 3px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.register-wrapper form input[type="button"] {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #7c8291;
+    background-size: 100%;
+    border: solid 1px #7e8086;
+    border-bottom-width: 3px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.register-title {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+    border-bottom: dashed 1px #e6e6e6;
+}
+
+.register-block {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+
+.bl{
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+.footer
+{
+    margin:auto;
+    position:absolute;
+    margin-top:500px;
+    background: #535854;
+    color:rgb(245, 204, 94);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    left:0px;
+    padding-top: 20px;
+
+}
+.produkt
+{
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto 20px;
+    margin-bottom:30px;
+    text-align: center;
+    font-family: verdana;
+    float:left;
+}
+
+.rek-con{
+    display: flex;
+}
+
+.rek{
+    width: 300px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
+.register-wrapper .register-block a input[type="button"]{
+    margin-right: 10%;
+}
+/*
+-------------------------------------------------------------
+ */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.button{
+    display:inline-block;
+   padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#009879;
+    text-align:center;
+    transition: all 0.2s;
+}
+.button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+    .button{
+        display:block;
+        margin:0.4em auto;
+        }
+}
+
+.err{
+    font-size: smaller;
+    color: red;
+    padding-left: 10%;
+}
